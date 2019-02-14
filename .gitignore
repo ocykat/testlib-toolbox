@@ -1,0 +1,22 @@
+# non-extension files
+*
+!/**/
+!*.*
+
+# executables
+*.exe
+*.class
+*.o
+*.out
+
+# shell scripts
+*.sh
+
+# text files
+*.txt
+
+# Makefile
+Makefile
+
+# vscode
+.vscode
