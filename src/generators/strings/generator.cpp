@@ -20,13 +20,13 @@ int main(int argc, char* argv[]) {
     // regular expressions
 
     // all-lowercase string with length ranged from 1 to 10
-    cout << rnd.next("[a-z]{1, 10}") << '\n'; 
+    cout << rnd.next("[a-z]{1,10}") << '\n'; 
 
     // mix-case string with length ranged from 1 to 10
-    cout << rnd.next("[a-zA-Z]{1, 10}") << '\n'; 
+    cout << rnd.next("[a-zA-Z]{1,10}") << '\n'; 
 
     // tokens containing letters and digits with length ranged from 1 to 10
-    cout << rnd.next("[a-zA-Z0-9]{1, 10}") << '\n'; 
+    cout << rnd.next("[a-zA-Z0-9]{1,10}") << '\n'; 
 
     return 0;
 }
